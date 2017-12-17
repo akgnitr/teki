@@ -1,17 +1,14 @@
 {
-  "name": "myapp",
+  "name": "webhook-echo-sample",
   "version": "1.0.0",
-  "description": "Test",
+  "description": "Webhook echo sample",
   "main": "index.js",
   "scripts": {
-    "test": "echo"
+    "start": "node index.js"
   },
-  "keywords": [
-    "echo"
-  ],
-  "author": "echo",
-  "license": "ISC",
+  "author": "Sunil Syal",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
   }
 }
